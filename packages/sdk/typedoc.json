@@ -1,0 +1,18 @@
+{
+  "name": "API",
+  "entryPoints": ["./src/index.ts"],
+  "entryPointStrategy": "resolve",
+  "tsconfig": "./tsconfig.json",
+  "out": "docs/api",
+  "excludeInternal": true,
+  "excludePrivate": true,
+  "excludeProtected": true,
+  "githubPages": false,
+  "disableSources": true,
+  "readme": "none",
+  "plugin": "typedoc-plugin-markdown",
+  "hideBreadcrumbs": true,
+  "hideInPageTOC": true,
+  "hideParameterTypesInTitle": true,
+  "requiredToBeDocumented": ["Enum", "Class"]
+}

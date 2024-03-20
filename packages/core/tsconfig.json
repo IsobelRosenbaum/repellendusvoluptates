@@ -1,0 +1,29 @@
+  {
+    "compilerOptions": {
+      "allowJs": true,
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "inlineSourceMap": false,
+      "lib": [
+        "dom",
+        "esnext"
+      ],
+      "listEmittedFiles": false,
+      "listFiles": false,
+      "moduleResolution": "nodenext",
+      "noEmit": true,
+      "noFallthroughCasesInSwitch": true,
+      "noImplicitAny": true,
+      "pretty": true,
+      "resolveJsonModule": true,
+      "rootDir": "./src",
+      "skipLibCheck": true,
+      "strictNullChecks": true,
+      "strict": true,
+      "target": "es2022",
+      "traceResolution": false
+    },
+    "include": [
+      "src"
+    ]
+  }
